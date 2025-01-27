@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  font-family: "roboto";
+}
+
+.container {
+  background-color: white;
+  width: 600px;
+  height: 650px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.img-cuadrado img {
+    object-fit: cover; 
+  width: 600px ;
+  height: 400px;
+  
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+ padding: 15px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.etiqueta {
+    padding-right: 40px;
+}
+.text {
+    padding: 10px;
+}
